@@ -839,7 +839,7 @@
       <dependency>
           <groupId>org.ojalgo</groupId>
           <artifactId>ojalgo</artifactId>
-          <version>43.0</version>
+          <version>48.3.2</version>
       </dependency>
       <dependency>
         <groupId>com.sun.jersey</groupId>
@@ -2283,7 +2283,7 @@
               <target>${javac.version}</target>
               <compilerArguments>
                 <Xlint/>
-				<Xlint:-unchecked/>
+				&lt;Xlint:-unchecked/>
                 <Xmaxwarns>9999</Xmaxwarns>
               </compilerArguments>
             </configuration>
